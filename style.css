@@ -1,0 +1,38 @@
+body {
+    background:cover;
+    background-position: center;
+}
+.heading {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.note{
+font-weight: 400;
+font-size:20px;
+}
+#status {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+.copyrightfooter {
+    background-color: lightseagreen;
+   border-radius: 15px;
+   border-color: black;
+   border-width: 5px;
+   border-style: groove;
+   bottom:0;
+   position:fixed;
+   width: 80%;
+   line-height: 3;
+   font-size: 25px;
+   height: 12%;
+   text-align: left;
+   font-weight: bold;
+   color: black;  
+}
+canvas {
+    background-color: blueviolet;
+    border-radius: 20px;
+    border:groove 5px white;
+    box-shadow: 5px 5px 5px lightseagreen;
+}
