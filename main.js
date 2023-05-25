@@ -22,8 +22,9 @@ function draw() {
 function modelLoaded() {
     console.log("Model has loaded!!");
 } 
-function Gotposes() {
+function Gotposes(results) {
     if(results.length>0) {
+        console.log(results);
         leftWristx=results[0].pose.leftWrist.x;
         leftWristy=results[0].pose.leftWrist.y;
         rightWristx=results[0].pose.rightWrist.x;
