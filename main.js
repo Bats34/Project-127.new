@@ -9,7 +9,7 @@ function preload() {
    song2=loadSound("AI MUSIC/music2.mp3");
 }
 function setup() {
-    canvas=createCanvas(600,500);
+    canvas=createCanvas(420,310);
     canvas.center();
     video=createCapture(VIDEO);
     video.hide();
