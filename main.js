@@ -13,15 +13,15 @@ function preload() {
    song2=loadSound("AI MUSIC/music2.mp3");
 }
 function setup() {
-    canvas=createCanvas(420,310);
-    canvas.center();
+    canvas=createCanvas(500,400);
+    canvas.parent('canvas');
     video=createCapture(VIDEO);
     video.hide();
     poseNet=ml5.poseNet(video,modelLoaded);
     poseNet.on('pose',Gotposes);
 }
 function draw() {
-    image(video,0,0,600,500);
+    image(video,0,0,500,400);
     songStatus=song.isPlaying();
     songStatus2=song2.isPlaying();
     if(scoreLeft>0.2) {
